@@ -26,6 +26,21 @@ export default function OrderHome() {
                 price="0.01"
                 comments="none"
             ></Item>
+                <Item
+                    itemName="test"
+                    price="0.01"
+                    comments="none"
+                ></Item>
+                <Item
+                    itemName="test"
+                    price="0.01"
+                    comments="none"
+                ></Item>
+                <Item
+                    itemName="test"
+                    price="0.01"
+                    comments="none"
+                ></Item>
             </div>
             </div>
         </main>

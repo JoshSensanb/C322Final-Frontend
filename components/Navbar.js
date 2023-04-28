@@ -27,10 +27,10 @@ const Navbar = () => {
                             <Link href="/">Orders</Link>
                             <ul>
                                 <li>
-                                    <Link href="orders">Create Order</Link>
+                                    <Link href="/orders">Create Order</Link>
                                 </li>
                                 <li>
-                                    <Link href="orders/status">Order Status</Link>
+                                    <Link href="/orders/status">Order Status</Link>
                                 </li>
                             </ul>
                         </li>
