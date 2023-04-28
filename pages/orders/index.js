@@ -7,42 +7,53 @@ import styles from "/styles/Orders.module.css"
 const inter = Inter({ subsets: ['latin'] })
 
 export default function OrderHome() {
+    const handleClick = (e) => {
+
+    }
+
+    const addToOrder = (item) => {
+        console.log(`Added: ${item.name}`)
+
+    }
+
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
             <div className={styles.container}>
             <div className={styles.orderHome}>
             <Item
-                itemName="test"
-                price="0.01"
-                comments="none"
+                itemName="All-Purpose Flour"
+                price="3.99"
+                comments="A versatile ingredient used in many baked goods, from breads to cakes."
+                addToOrder={addToOrder}
             ></Item>
             <Item
-                itemName="another test"
-                price="298.21"
-                comments="comment"
+                itemName="Granulated Sugar"
+                price="2.49"
+                comments="A common sweetener used in everything from cookies to pies."
             ></Item>
             <Item
-                itemName="test"
-                price="0.01"
-                comments="none"
+                itemName="Butter"
+                price="4.99"
+                comments="Provides richness and flavor in baked goods like cakes and pastries."
             ></Item>
                 <Item
-                    itemName="test"
-                    price="0.01"
-                    comments="none"
+                    itemName="Eggs"
+                    price="1.99"
+                    comments="Used as a binding agent and to add structure and texture to baked goods."
                 ></Item>
                 <Item
-                    itemName="test"
-                    price="0.01"
-                    comments="none"
+                    itemName="Baking Powder"
+                    price="1.49"
+                    comments="A leavening agent that helps baked goods rise."
                 ></Item>
                 <Item
-                    itemName="test"
-                    price="0.01"
-                    comments="none"
+                    itemName="Vanilla Extract"
+                    price="4.99"
+                    comments="A flavoring used in many baked goods, from cookies to cakes."
                 ></Item>
             </div>
             </div>
+            <button onClick={handleClick}>Submit Order</button>
         </main>
     )
 }
