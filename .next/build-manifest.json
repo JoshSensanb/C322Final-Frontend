@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/orders/status": [
+    "/refunds": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/orders/status.js"
+      "static/chunks/pages/refunds.js"
     ]
   },
   "ampFirstPages": []

@@ -35,7 +35,15 @@ const Navbar = () => {
                             </ul>
                         </li>
                         <li>
-                            <Link href="/login">Refunds</Link>
+                            <Link href="/">Refunds</Link>
+                            <ul>
+                                <li>
+                                    <Link href="/refunds">Get Refund</Link>
+                                </li>
+                                <li>
+                                    <Link href="/refunds/status">Refund Status</Link>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </nav>
