@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styles from "/styles/SearchBarWithoutButton.module.css"
-import SearchIcon from "@material-ui/icons/Search";
 
 const SearchBarWithoutButton = ({ create }) => {
     const [nameQuery, setNameQuery] = useState('');
