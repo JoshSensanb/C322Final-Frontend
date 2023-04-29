@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styles from "/styles/SearchBar.module.css"
-import SearchIcon from '@material-ui/icons/Search'
 
 const SearchBar = ({ search }) => {
     const [query, setQuery] = useState("");
@@ -20,7 +19,7 @@ const SearchBar = ({ search }) => {
                 placeholder="Enter Order ID..."
                 className={styles.search}
             />
-            <button type="submit"><SearchIcon style={{ fontSize: 40 }}/></button>
+            <button type="submit">Search</button>
         </form>
         </div>
     );
